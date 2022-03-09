@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@300;400;600&display=swap');
+*{margin: 0; padding:0; box-sizing: border-box;}
+
+body{
+	width: 100%;
+	height: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom:10% ;
+}
+
+main{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	color: #424242;
+}
+
+nav{
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	padding-left: 10%;
+	flex-direction: row;
+	align-items: center;
+	font-family: 'Work Sans', sans-serif;
+}
+ #logo{
+	 width: 100%;
+	 height: auto;
+ }
+.menu{
+	text-decoration: none;
+	border-left: solid #999 0.2px;
+	width: 20%;
+	padding-left: 2%;
+	padding-right: 1%;
+}
+
+a, a:hover, a:visited{
+	color: #424242;
+}
+#containerMenu{
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 3%;
+
+}
+header{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	padding: 2%;
+}
+#titulo{
+	color: #424242;
+	padding-left:10% ;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	position: relative;
+}
+
+.escudo{
+    position: absolute;
+	top:10px;
+	right: 10px;
+	width: 10%;
+	height: auto;
+}
+
+#sexto{
+	width: 100%;
+	height: 600px;
+}
+
+footer{
+	width: 100vw;
+	height: 20px;
+	background-color: #424242;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	position: fixed;
+	padding-bottom: 10px;
+	bottom:0;
+    left: 0;
+	margin:auto;	
+}
+
+.derechos{
+	top: 1%;
+}
+
+#pizza{
+	width: 50%;
+	height: auto;
+}
+
+
+
+/*Small
+@media screen and (min-width: 576px){
+	body{
+		width: 300px;
+		height: 600px;
+		padding-right: 10%;
+		padding-left: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#logo{
+		width: 20%;
+		height: auto;
+	}
+	
+}
+
+@media screen and (min-width: 768px){
+	
+}
+
+*/
